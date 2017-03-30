@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="20dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/general_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일반 토스트 뜨기"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X 좌표"
+            />
+        <EditText
+            android:id="@+id/x_direction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Y 좌표"
+            />
+        <EditText
+            android:id="@+id/y_direction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/set_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="중간에 토스트 뜨게하기"
+        />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/custom_toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용자 지정"
+        />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/snackbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스낵바"
+        />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/general_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기본 대화상자"
+        />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/radio_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="라디오 대화상자"
+        />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/checkbox_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="체크박스 대화상자"
+        />
+    <Button
+        android:onClick="onClick"
+        android:id="@+id/custom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용자정의 대화상자"
+        />
+
+
+</LinearLayout>
